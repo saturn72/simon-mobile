@@ -10,12 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace Simon.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class StartPage : ContentPage
     {
-        public LoginPage()
+        public StartPage()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
+            this.BindingContext = new StartViewModel();
         }
     }
 }
